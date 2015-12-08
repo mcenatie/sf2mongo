@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo_ds": {
+    "host": "SECURE_GATEWAY_CLOUD_DESTINATION_HOST",
+    "port": SECURE_GATEWAY_CLOUD_DESTINATION_PORT,
+    "database": "accountdb",
+    "name": "mongo_ds",
+    "connector": "mongodb"
+  }
+}

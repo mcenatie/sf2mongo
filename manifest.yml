@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  command: node server/server.js
+  instances: 1
+  domain: mybluemix.net
+  name: sf2mongo
+  host: sf2mongo
+  disk_quota: 1024M
